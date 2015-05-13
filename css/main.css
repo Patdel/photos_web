@@ -1,0 +1,35 @@
+body {
+  padding: 0 0 0 0;
+  font-family: Big Caslon;
+}
+
+header {
+  padding: 10px 10px 10px 10px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #050505;
+}
+
+.center {
+  padding: 20px 20px 20px 20px;
+}
+
+.about {
+  width: 400px;
+  border: 1px solid #050505;
+}
+
+.sessions {
+  padding: 20px 20px 20px 20px;
+}
+
+.intro {
+  padding: 10px 10px 10px 10px;
+}
+
+.picture {
+  width: 60px;
+  height: 40px;
+}
