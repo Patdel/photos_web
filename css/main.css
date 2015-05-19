@@ -11,8 +11,14 @@ body {
 
 header {
   padding: 10px 10px 10px 10px;
+  background-color: #d7f2f1;
+  background-image: url(../images/polaroid.png);
+  background-position: top left;
+  background-repeat: repeat;
 }
-
+/*.featured-image {
+  background: #d7f2f1 url(../images/polaroid.png) top left repeat;
+}*/
 h1 {
   text-align: center;
   border-bottom: 1px solid #050505;
@@ -49,9 +55,6 @@ h1 {
 header h1 {
   margin: 20px 0 10px 0;
   padding-bottom: 15px;
-}
-header {
-  background-color: #d7f2f1;
 }
 ul {
   list-style-type: none;
