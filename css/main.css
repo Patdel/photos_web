@@ -12,9 +12,10 @@ body {
 header {
   padding: 10px 10px 10px 10px;
   background-color: #d7f2f1;
-  background-image: url(../images/polaroid.png);
-  background-position: top left;
-  background-repeat: repeat;
+  /*background-image: url(../images/polaroid.png);*/
+  background-image: url(../images/boat_e_river_copy.jpg);
+  /*background-position: top left;
+  background-repeat: repeat;*/
 }
 /*.featured-image {
   background: #d7f2f1 url(../images/polaroid.png) top left repeat;
@@ -27,7 +28,7 @@ h1 {
 
 .center {
   padding: 20px 20px 20px 20px;
-  background-color: #d0dbda;
+  background-color: #dceded;
   height: 500px;
 }
 
@@ -48,8 +49,6 @@ h1 {
 }
 
 .picture {
-  width: 60px;
-  height: 40px;
   display: inline;
 }
 header h1 {
@@ -62,4 +61,8 @@ ul {
 ul li {
   display: inline;
   margin-right: 5px;
+}
+
+img:hover {
+  border: 3px solid black;
 }
