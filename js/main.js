@@ -1,23 +1,23 @@
 
-console.log('This is an experiment in the use of JavaScript selectors and I do hope it works!')
+console.log('This is an experiment in the use of JavaScript selectors and I do hope it works!');
 
-var paragraphOne = document.getElementsByClassName('intro');
-
-var elText = paragraphOne[0].innerHTML;
-
-// elText = elText.replace('This is a web page devoted to showing pictures of New York and other places that catch my attention as I learn to develop an eye for corners, spaces, people, and environments that seem to go away as soon as I pass them by with me body, my thoughts, and my intentions. Many of these places hold moments that are fleeting, but that live within a specific light, a specific mood, and a specific sensation. I invite you to explore these images so you can better appreciate the art of looking and  living', 'This is an experiment in the use of JavaScript selectors and I do hope it works!');
-
-// paragraphOne[0].innerHTML = elText;
+var p1 = document.getElementById("intro");
 
 
-// document.getElementsByClassName('intro').addEventListener("click", function(){
-//     alert("Hello World!");
-//     });
+var msg = "This is an experiment in the use of JavaScript selectors and I do hope it works!";
 
-var msg = 'This is an experiment in the use of JavaScript selectors and I do hope it works!'
+var orgMsg = "This is a web page devoted to showing pictures of New York and other places that catch my attention as I learn to develop an eye for corners, spaces, people, and environments that seem to go away as soon as I pass them by with me body, my thoughts, and my intentions. Many of these places hold moments that are fleeting, but that live within a specific light, a specific mood, and a specific sensation. I invite you to explore these images so you can better appreciate the art of looking and  living"
 
-function updateText(){
-  paragraphOne.textContent = msg
-};
+function updateText() {
+  p1.innerHTML = msg;
+}
 
-paragraphOne.addEventListener("click", updateText);
+function restoreText() {
+  p1.innerHTML = orgMsg;
+}
+
+function showInfoBri() {
+  alert("This is a view of Dumbo from the Manhattan Bridge");
+}
+
+// paragraphOne.addEventListener("click", updateText);
