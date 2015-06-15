@@ -20,17 +20,39 @@ function showInfoBri() {
   alert("This is a view of Dumbo from the Manhattan Bridge");
 }
 
+var allPics = document.getElementById("theList");
+
+// var pId;
+// var newPic;
+
+// function swapPics(pId, newPic) {
+//   var elPic = document.getElementById(pId);
+//   elPic.src = newPic;
+//     for (var i = 0; i < allPics.childNodes.length; i++) {
+//       var origin = allPics.childNodes[i].childNodes[0].src;
+//       if (origin  !== newPic) {
+//         allPics.childNodes[i].className = "newDiv";
+//       }
+//     }
+// }
+
+
+// if (allPics.childNodes[i].childNodes[0].src === newPic) {
+//   allPics.childNodes[i].childNodes[0] = elPic;
+// }
+
+
 function swapPics(pId, newPic) {
   var elPic = document.getElementById(pId);
   elPic.src = newPic;
-  var allPics = getElementById("theList");
-    for (var i = 0; length - 1; i++) {
-      var origin = allPics[i].src;
-      if (origin  !== newPic) {
-      allPics.className = "newDiv";
+    for (var i = 0; i < allPics.childNodes.length; i++) {
+      var origin = allPics.childNodes[i].childNodes[0].id;
+      if (origin  !== pId) {
+        allPics.childNodes[i].className = "newDiv";
       }
     }
 }
+
 
 
 
