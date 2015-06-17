@@ -69,4 +69,7 @@ img:hover {
 }
 .newDiv {
   visibility: hidden;
-
+}
+.seeIt {
+  visibility: visible;
+}

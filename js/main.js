@@ -22,25 +22,6 @@ function showInfoBri() {
 
 var allPics = document.getElementById("theList");
 
-// var pId;
-// var newPic;
-
-// function swapPics(pId, newPic) {
-//   var elPic = document.getElementById(pId);
-//   elPic.src = newPic;
-//     for (var i = 0; i < allPics.childNodes.length; i++) {
-//       var origin = allPics.childNodes[i].childNodes[0].src;
-//       if (origin  !== newPic) {
-//         allPics.childNodes[i].className = "newDiv";
-//       }
-//     }
-// }
-
-
-// if (allPics.childNodes[i].childNodes[0].src === newPic) {
-//   allPics.childNodes[i].childNodes[0] = elPic;
-// }
-
 
 function swapPics(pId, newPic) {
   var elPic = document.getElementById(pId);
@@ -53,7 +34,17 @@ function swapPics(pId, newPic) {
     }
 }
 
+function restoreImgs(pId, oldPic) {
+  var elPic = document.getElementById(pId);
+  elPic.src = oldPic;
+  for (var i = 0; i < allPics.childNodes.length; i++) {
+    allPics.childNodes[i].className = "seeIt";
+  }
+}
 
+function expandText (pId, oldPic) {
+
+}
 
 
 
