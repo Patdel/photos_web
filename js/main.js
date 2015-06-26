@@ -42,9 +42,7 @@ function restoreImgs(pId, oldPic) {
   }
 }
 
-function expandText (pId, oldPic) {
 
-}
 
 
 
